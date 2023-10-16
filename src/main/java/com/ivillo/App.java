@@ -37,7 +37,7 @@ public class App
                         System.out.println("HAI INDOVINATO!!! con " + in.readLine() + " tentativi");
                     break;
                     case "-2":
-                        System.out.println("Chiusura del server...");
+                        System.out.println("Disconnesso...");
                     break;
                 }
             } while (Integer.parseInt(risposta) != -2 );
